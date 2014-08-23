@@ -1,0 +1,167 @@
+CURRICULUM VITAE  
+----------------
+----------------
+DANIEL EMAASIT
+PERSONAL INFORMATION
+Last Name: Emaasit
+First Name: Daniel
+Date of Birth: November 1, 1986
+
+Contact: 3875 Cambridge Street Apt 518
+                 Las Vegas, NV, 89119
+                 Mobile +1-615-649-2489
+            E-Mail: daniel.emaasit@gmail.com 
+                               emaasit@unlv.nevada.edu
+EDUCATION BACKGROUND  
+Doctor of Philosophy in Civil and Transportation Engineering (Expected in August, 2016) 
+University of Nevada, Las Vegas, NV, USA. (2013-Present)
+Dissertation: Development of an Enterprise GIS Database for Utilities within the Right-of-Way of Roadways Maintained by the Nevada Department of Transportation.
+
+Masters of Engineering in Civil and Transportation Engineering (Awarded in August, 2013)
+Tennessee State University, Nashville, TN, USA. (2011-2013)
+Thesis Title: Framework to Identify Factors Associated with High Pedestrian and Bicycle Crash Locations Using Geographic Information System and Statistical Analysis.
+Bachelor of Science in Civil and Transportation Engineering (Honors). (Awarded in Nov, 2010)
+University of Dar Es Salaam, Tanzania. (2006-2010)
+Capstone: Laboratory study on the suitability of Cement Kiln Dust and Non-Conforming Clinker for upgrading of the Engineering properties of laterite soils.
+CAREER EXPERIENCE
+Graduate Research Assistant, University of Nevada-Las Vegas (August, 2013 - Present)
+Project 1: Utility Data Layer.
+Sponsor: Nevada Department of Transportation (NDOT)
+Tasks;
+.	Literature review, data collection and data analysis
+.	Creation of a data library and an inventory
+
+Project 2: Business Intelligence for Nevada Department of Transportation.
+Sponsor: Nevada Department of Transportation (NDOT)
+Tasks;
+.	Literature review of Bridge Management Systems (BMS)
+.	Bridge data collection, understanding and preparation 
+.	Analysis of bridge data for anomalies and inconsistencies
+
+Graduate Research and Teaching Assistant, Tennessee State University (August, 2011 - July, 2013)
+Project 1: Safety Effectiveness Evaluation of Median Cable Barriers in Tennessee.
+Sponsor: Tennessee Department of Transportation (TDOT)
+Tasks;
+.	Data collection including crash data, geometric data of road segments with median cable barriers, properties of median cables used in Tennessee.
+.	Reviewing of hard copy crash reports to identify median related crashes.
+.	Descriptive statistical analysis of before and after performance of the cable systems.
+.	Empirical Bayes analysis of the before and after performance of the cable systems.
+
+Project 2: Statewide Pedestrian and Bicycle Safety Analysis and Investment Policy.
+Sponsor: Tennessee Department of Transportation (TDOT)
+Collaboration: With University of Tennessee Knoxville
+Tasks;
+.	Data collection including pedestrian and bicyclist crash data, geospatial data of census tracts in Tennessee, socio-economic and demographic data of Tennessee.
+.	Geocoding of crash data and Identification of high crash location using GIS spatial statistical tools.
+.	Descriptive Statistical analysis of crash data.
+.	Applying statistical models such as Multinomial Logit and Negative Binomial models to perform Injury Severity and Frequency analysis of the crash data.
+Teaching Assistant/Courses Taught
+.	CVEN 3131 Soil Mechanics Lab
+.	CVEN 3200 Transportation Engineering
+.	CVEN 4090 Traffic Engineering
+.	CVEN 4320 Highway Engineering
+
+Research Assistant, University of Dar Es Salaam (August, 2010 - June, 2011)
+Project: Geotechnical Properties of Two-Stage Stabilized Expansive Soils with Lime and Cement.
+Tasks;
+.	Performing soil tests such as Atterberg limits, sieve analysis, Modified Proctor test, Unconfined Compressive Strength.
+
+Highway Engineering Intern, SMEC International Pty, (Australian Consulting firm, Tanzania office) (July, 2009 - October, 2009)
+Project: Preparation of preliminary and detailed Road engineering designs, cost estimates, bidding documents, and environmental and social impact assessments for the investment sub-projects for Dodoma municipality under the Tanzania strategic cities project.
+Tasks;
+.	Geometric design of roads using AutoCAD Civil 3D 2010.
+.	Preparation of preliminary cost estimates for the roads.
+
+Civil Engineering Materials Intern, Central Materials Laboratory (CML) Ministry of Works and Transport, Uganda (July 2008 - October 2008).
+Tasks: Testing construction materials from contractors, performing soil tests, Atterberg limits, Proctor, Sieve analysis. 
+
+Water Resources Engineering Intern, M & E Associates Ltd Consulting Engineers, Uganda (July, 2007 - October, 2007)
+Project: Rehabilitation and construction of water and sanitation facilities in Soroti, Sironko and Kaberamaido districts in Uganda.
+
+RESEARCH
+Publications
+1.	Emaasit, D., Chimba, D., Allen, S., Hurst, B., Nelson, M. "Factors affecting Median Cable Barrier Crash Frequency: New Insights".  Journal of Transportation Safety and Security, Vol. 6 No. 1, 2014, pp. 62-77. doi:10.1080/19439962.2013.812168.
+
+2.	D. Chimba, D. Emaasit and B. Kutela, "Integrating Origin-Destination Survey and Stochastic User Equilibrium: A Case Study for Route Relocation," Journal of Transportation Technologies, Vol. 2 No. 4, 2012, pp. 297-304. doi: 10.4236/jtts.2012.24032.
+
+3.	D. Chimba, D. Emaasit and B. Kutela, "Likelihood Parameterization of Bicycle Crash Injury Severities," Journal of Transportation Technologies, Vol. 2 No. 3, 2012, pp. 213-219. doi: 10.4236/jtts.2012.23023.
+
+4.	Paz, A., E. Yfantis, D. Emaasit, M. Branchini, M. McElrath, A. Batoumi, A. Fouche, and E. Regnault. "Development of Tools for the Management of Utility Infrastructure". Transportation Research Board, Washington, D.C. In Press, 2014.
+
+5.	Paz, A., E. Yfantis, D. Emaasit, and M. Branchini. "A Workflow Process for the Management of Utility Infrastructure within the Right of Way of Roadways". Transportation Research Board, Washington, D.C. In Press, 2014.
+
+6.	Chimba, D., E. Ruhazwe, D. Emaasit, B. Hurst and M. Tugwell, "Median Cable Rails Systems Effectiveness supported by Numbers," Transportation Research Board, Washington, D.C. In Press, 2014.
+Conference Presentations
+1.	Emaasit, D., Chimba, D., Cherry, C., Pannell, Z. "Patterning Demographic and Socioeconomic Characteristics Affecting Pedestrian and Bicycle Crash Frequency". Accepted for presentation at the Transportation Research Board 93rd Annual Meeting, (TRB), Washington, D.C., January 14th, 2014.
+
+2.	Emaasit, D., Chimba, D., Cherry, C., Kutela, B., Wilson, J. "Methodology to Identify Factors Associated with Pedestrian High-Crash Clusters Using GIS-Based Local Spatial Autocorrelation". Accepted for presentation at the Transportation Research Board 92nd Annual Meeting, (TRB), Washington, D.C., January 15th, 2013.
+
+3.	Chimba, D., Emaasit, D., Allen, S., Hurst, B., Nelson, M. "Safety-Effectiveness Evaluation of Cable Rail Systems in Tennessee". Accepted for presentation at the Transportation Research Board 92nd Annual Meeting, (TRB), Washington, D.C., January 16th, 2013.
+
+4.	Chimba, D., Kutela, B., Emaasit, D., Ogletree, G., Horne, F., Hallavant, R. "Impact of Abandoned and Disabled Vehicles on Freeway Incident Durations'. Accepted for presentation at the Transportation Research Board 92nd Annual Meeting, (TRB), Washington, D.C., January 14th, 2013.
+
+5.	Chimba, D., Emaasit, D. "Safety-Effectiveness Evaluation of Cable Rail Systems in Tennessee". Presented at the 34th Annual Tennessee State University-Wide Research Symposium, Nashville, March 26, 2012.
+
+6.	Bujulu, P. M. S. and Emaasit, D. (2010) "Suitability of Cement Kiln Dust and Non-Conforming Clinker for Upgrading the Engineering Properties of Laterite Soils", 3rd Seminar on Infrastructure Technologies for Sustainable Development: JSPSAA Science Platform Program, 17th September, 2010, Kyoto, Japan.
+Other Conferences attended
+1.	The 91st Annual Meeting of the Transportation Research Board (TRB), Washington, D.C., January 22-26, 2012.
+2.	Annual Meeting of the Intelligent Transportation Society of Tennessee (ITS), Memphis, Tennessee, September 28-30, 2011.
+3.	Regional Conference on Innovations in Road Financing and Management organized by the Tanzania Roads Fund Board (TRFB), Arusha, Tanzania, August 26-27, 2010.
+COMPUTER SKILLS
+1.	RDBMS: MS SQL Server, Oracle DB, & MySQL
+2.	NoSQL: MongoDB
+3.	Statistics: R, STATA & SPSS.
+4.	Programming: Python
+5.	Version Control: Git
+6.	Business Intelligence: Teradata, RapidMiner, Tableau, Planner's Lab, & Splunk
+7.	Planning: ArcGIS, TransCAD & MS Project.
+8.	Highway Design: Micro Station & AutoCAD Civil 3D.
+9.	Traffic Analysis: HCS & Synchro.
+10.	Microsoft Office: Word, Excel, Publisher, PowerPoint & Outlook.
+CERTIFICATIONS
+1.	The Data Scientist's Toolbox: Coursera Verified Certificates, License GLPM45CD33
+2.	Getting and Cleaning Data: Coursera Verified Certificates, License 6B3KYARGWP
+3.	Exploratory Data Analysis: Coursera Verified Certificates, License BSRB3GNZR8
+AWARDS AND SCHOLARSHIPS
+1.	Graduate Research Assistantship, University of Nevada-Las Vegas (2013-2016)
+2.	Certificate for Best Graduate Poster Presentation in the Category of Engineering, 35th Annual Tennessee State University-Wide Research Symposium, Nashville, April 1-5, 2013.
+3.	Certificate for Excellent Academic Performance from the Golden Key International Honor Society, Tennessee State University. (Awarded on December 6, 2012)
+4.	Graduate Research and Teaching Assistantship, Tennessee State University (2011-2013)
+5.	Certificate for Excellent Performance for being the Best Final year student in Civil and Transportation Engineering, University of Dar Es salaam. (Awarded in November, 2010)
+6.	Certificate for Excellent Performance for being the Best First year student in Civil and Transportation Engineering during the 2006/2007 Academic year, University of Dar Es salaam (Awarded in November 2007)
+7.	Exchange Student scholarship from the Inter-University Council for East Africa to pursue B.Sc. in Civil Engineering at the University of Dar Es salaam (2006-2010)
+MEMBERSHIP IN PROFESSIONAL SOCIETIES
+1.	American Statistical Association (2014-Present)
+2.	Professional Association for SQL Server (2014-Present)
+3.	Intelligent Transportation Society of America (2014-Present)
+4.	Golden Key International Honor Society (2012-Present)
+5.	Institute of Transportation Engineers (2011 - Present)
+6.	American Society of Civil Engineers (2011 - Present)
+7.	Institution of Engineers in Tanzania (2007 - Present)
+VOLUNTEER EXPERIENCE
+1.	Organizer, Las Vegas R Users Group (2014-Present)
+2.	Reviewer, Journal of Transportation Research Board (2014-Present)
+3.	Reviewer, Journal of Traffic Injury Prevention (2014-Present)
+LEADERSHIP EXPERIENCE                                                                                                                       
+1.	Founder & Organizer: Las Vegas R Users Group, Las Vegas, Nevada (2014-Present)
+2.	Secretary & Founding Member: Institute of Transportation Engineers (ITE)-Tennessee State University Chapter (2011 - 2013)
+3.	Member of the Board of Directors of Miroi Junior Primary School, Bukedea, Uganda (2010-Present)
+4.	General Secretary: Rotaract Club of Kwanza, University of Dar Es Salaam (2008 - 2009)
+5.	General Secretary: Kachumbala Cooperative Society, Bukedea, Uganda (2007 - Present)
+REFEREES
+Kenneth Perkins,
+Project Engineer,
+Engineering Department, City of LaVergne,
+5175 Murfreesboro Rd, Lavergne, TN 37086,
+Phone: (901) 337-3276,
+Email: kperkins1985@yahoo.com
+
+Dr. Deo Chimba, 
+Assistant Professor, 
+Department of Civil and Environmental Engineering,
+Tennessee State University, 
+3500 John A Merritt Blvd, Nashville, TN 37209, 
+Phone: (615) 963-5430, 
+Email: dchimba@tnstate.edu 
+
+
