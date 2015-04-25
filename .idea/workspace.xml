@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3739796-2f5c-4671-b581-0f1e68ab2e7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-index.html" afterPath="$PROJECT_DIR$/blog/blog-index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="emaasit.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="318.46667" vertical-offset="10016" max-vertical-offset="10920">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.44946492" vertical-offset="2583" max-vertical-offset="10920">
+              <caret line="141" column="105" selection-start-line="141" selection-start-column="105" selection-end-line="141" selection-end-column="105" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog-index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog-index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/blog-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.549346" vertical-offset="4032" max-vertical-offset="5313">
-              <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+            <state vertical-scroll-proportion="37.8" vertical-offset="1638" max-vertical-offset="5313">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -199,18 +199,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/blog/blog-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="318.46667" vertical-offset="10016" max-vertical-offset="10920">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="37.8" vertical-offset="1638" max-vertical-offset="5313">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog-index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.549346" vertical-offset="4032" max-vertical-offset="5313">
-          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.44946492" vertical-offset="2583" max-vertical-offset="10920">
+          <caret line="141" column="105" selection-start-line="141" selection-start-column="105" selection-end-line="141" selection-end-column="105" />
           <folding />
         </state>
       </provider>
