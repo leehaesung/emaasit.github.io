@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3739796-2f5c-4671-b581-0f1e68ab2e7d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-index.html" afterPath="$PROJECT_DIR$/blog/blog-index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="emaasit.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="blog-index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/blog-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6741974" vertical-offset="2898" max-vertical-offset="6531">
-              <caret line="165" column="55" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.39952436" vertical-offset="3171" max-vertical-offset="6489">
+              <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="72.8" vertical-offset="6426" max-vertical-offset="11592">
-              <caret line="202" column="102" selection-start-line="202" selection-start-column="102" selection-end-line="202" selection-end-column="102" />
+            <state vertical-scroll-proportion="-55.333332" vertical-offset="8987" max-vertical-offset="11592">
+              <caret line="507" column="85" selection-start-line="507" selection-start-column="85" selection-end-line="507" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -276,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="72.8" vertical-offset="6426" max-vertical-offset="11592">
-          <caret line="202" column="102" selection-start-line="202" selection-start-column="102" selection-end-line="202" selection-end-column="102" />
+        <state vertical-scroll-proportion="-55.333332" vertical-offset="8987" max-vertical-offset="11592">
+          <caret line="507" column="85" selection-start-line="507" selection-start-column="85" selection-end-line="507" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -298,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6741974" vertical-offset="2898" max-vertical-offset="6531">
-          <caret line="165" column="55" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.39952436" vertical-offset="3171" max-vertical-offset="6489">
+          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
           <folding />
         </state>
       </provider>
