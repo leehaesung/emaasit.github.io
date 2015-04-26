@@ -49,6 +49,11 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
   margin-left: auto;
   margin-right: auto;
 }
+.comments-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
 code {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.04);
@@ -488,7 +493,7 @@ plot(qchisq((1:nrow(data5)-1/2)/nrow(data5),df=2), sort(d5),
 
 <!--Place the following code where you'd like Disqus to load:
 to display comments-->
-<div class="col-md-10 .col-md-offset-3">
+<div class="container-fluid comments-container">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES * * */
