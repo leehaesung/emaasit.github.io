@@ -1,0 +1,297 @@
+---
+title: "Multivarite Normal Distribution"
+author: "Daniel Emaasit"
+date: "March 17, 2015"
+output: html_document
+---
+
+# Problem 4.27:
+Consider the radiation data in Example 4.10.  
+
+Construct a Q-Q plot for the natural logarithms of these data. Do the natural logarithms appear to normally distributed? 
+
+```{r}
+# create a data matrix
+radiation <- matrix(c(0.15,0.9,0.18,0.1,0.05,0.12,0.08,0.05,0.08,0.1,0.07,0.02,0.01,0.1,0.1,0.1,0.02,0.1,0.01,0.4,0.1,0.05,0.03,0.05,0.15,0.1,0.15,0.09,0.08,0.18,0.1,0.2,0.11,0.3,0.02,0.2,0.2,0.3,0.3,0.4,0.3,0.05))
+
+colnames(radiation) <-c("Radiation")
+
+# construct a q-q plot
+qqnorm(log(radiation))
+qqline(log(radiation))
+
+# compute the marginal normality
+shapiro.test(log(radiation))
+```
+
+The Q-Q plot appears to be straight, hence the data are normally distributed. In addition, the test of normality produces a p-value of 0.1665 showing that the data is normally distributed.  
+
+For lambda = 1/4, the coefficient of normality is greater than for lambda = 0.  
+
+# Problem 4.29
+Given the air pollution data.
+
+```{r}
+# read the data into R
+pollution_data <- read.table("table15.txt")
+
+# examine columns five and six
+data2 <- (pollution_data[,5:6])
+colnames(data2) <- c("NO2", "O3")
+
+# calcualate the sample mean vector
+cm <- colMeans(data2)
+cm
+
+# calculate the variance-covariance Matrix
+S <- cov(data2)
+S
+
+# calaculate the statistical square distances
+d <- apply(data2, MARGIN = 1, function(data2) +
+                   t(data2-cm) %*% solve(S) %*% (data2-cm))
+d
+
+# construct a chi-square plot of the ordered distances
+par(mfrow = c(1,1))
+plot(qchisq((1:nrow(data2)-1/2)/nrow(data2),df=2), sort(d),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "Chi-square Plot for (NO2, O3)"); abline(a=0, b=1)
+```
+
+The number of units = 26 
+The proportion = 62%
+
+# Problem 4.33
+
+## (a)
+Examine the margninal normality of the observations for the data in Table 4.3.
+
+```{r}
+# read the data into R
+data3 <- read.table("table43.txt")
+colnames(data3)<-c("X1", "X2", "X3", "X4","X5")
+library(MVN)
+uniNorm(data3, type = "SW", desc = TRUE)
+
+```
+
+
+## (b)
+Examine the bivariate normality of the observations for the data.
+
+```{r}
+# examine columns one upto four
+data3 <- (data3[,-5])
+
+# construct the bivariate chi-square plot for X1 and X2
+data3_X1x2 <- (data3[,c("X1","X2")])
+cm3_X1X2 <- colMeans(data3_X1x2)
+S3_X1X2 <- cov(data3_X1x2)
+d3_X1X2 <- apply(data3_X1x2, MARGIN = 1, function(data3_X1x2) +
+                   t(data3_X1x2-cm3_X1X2) %*% solve(S3_X1X2) %*% (data3_X1x2-cm3_X1X2))
+
+par(mfrow = c(3,2))
+plot(qchisq((1:nrow(data3_X1x2)-1/2)/nrow(data3_X1x2),df=2), sort(d3_X1X2),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "Chi-Square Plot for (X1,X2)"); abline(a=0, b=1)
+
+# construct the bivariate chi-square plot for X1 and X3
+data3_X1x3 <- (data3[,c("X1","X3")])
+cm3_X1X3 <- colMeans(data3_X1x3)
+S3_X1X3 <- cov(data3_X1x3)
+d3_X1X3 <- apply(data3_X1x3, MARGIN = 1, function(data3_X1x3) +
+                   t(data3_X1x3-cm3_X1X3) %*% solve(S3_X1X3) %*% (data3_X1x3-cm3_X1X3))
+
+plot(qchisq((1:nrow(data3_X1x3)-1/2)/nrow(data3_X1x3),df=2), sort(d3_X1X3),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "Chi-Square Plot for (X1,X3)"); abline(a=0, b=1)
+
+# construct the bivariate chi-square plot for X1 and X4
+data3_X1x4 <- (data3[,c("X1","X4")])
+cm3_X1X4 <- colMeans(data3_X1x4)
+S3_X1X4 <- cov(data3_X1x4)
+d3_X1X4 <- apply(data3_X1x4, MARGIN = 1, function(data3_X1x4) +
+                   t(data3_X1x4-cm3_X1X4) %*% solve(S3_X1X4) %*% (data3_X1x4-cm3_X1X4))
+
+plot(qchisq((1:nrow(data3_X1x4)-1/2)/nrow(data3_X1x4),df=2), sort(d3_X1X4),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "Chi-Square Plot for (X1,X4)"); abline(a=0, b=1)
+
+# construct the bivariate chi-square plot for X2 and X3
+data3_X2x3 <- (data3[,c("X2","X3")])
+cm3_X2x3 <- colMeans(data3_X2x3)
+S3_X2x3 <- cov(data3_X2x3)
+d3_X2x3 <- apply(data3_X2x3, MARGIN = 1, function(data3_X2x3) +
+                   t(data3_X2x3-cm3_X2x3) %*% solve(S3_X2x3) %*% (data3_X2x3-cm3_X2x3))
+
+
+plot(qchisq((1:nrow(data3_X2x3)-1/2)/nrow(data3_X2x3),df=2), sort(d3_X2x3),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "Chi-Square Plot for (X2,X3)"); abline(a=0, b=1)
+
+# construct the bivariate chi-square plot for X2 and X4
+data3_X2x4 <- (data3[,c("X2","X4")])
+cm3_X2x4 <- colMeans(data3_X2x4)
+S3_X2x4 <- cov(data3_X2x4)
+d3_X2x4 <- apply(data3_X2x4, MARGIN = 1, function(data3_X2x4) +
+                   t(data3_X2x4-cm3_X2x4) %*% solve(S3_X2x4) %*% (data3_X2x4-cm3_X2x4))
+
+
+plot(qchisq((1:nrow(data3_X2x4)-1/2)/nrow(data3_X2x4),df=2), sort(d3_X2x4),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "Chi-Square Plot for (X2,X4)"); abline(a=0, b=1)
+
+# construct the bivariate chi-square plot for X3 and X4
+data3_X3x4 <- (data3[,c("X3","X4")])
+cm3_X3x4 <- colMeans(data3_X3x4)
+S3_X3x4 <- cov(data3_X3x4)
+d3_X3x4 <- apply(data3_X3x4, MARGIN = 1, function(data3_X3x4) +
+                   t(data3_X3x4-cm3_X3x4) %*% solve(S3_X3x4) %*% (data3_X3x4-cm3_X3x4))
+
+
+plot(qchisq((1:nrow(data3_X3x4)-1/2)/nrow(data3_X3x4),df=2), sort(d3_X3x4),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "Chi-Square Plot for (X3,X4)"); abline(a=0, b=1)
+```
+
+The chi-square plots for (x1,x2), (x1,x3), and (x3,x4) are straight lines while (x1,x4), (x2,x3) and (x2,x4) do not appear to be straight.
+
+# Problem 4.39
+
+## (a)
+Using the data in Table 4.6, examine each of the variables independence, support, benevolence, conformity, and leadership for marginal normality.
+
+```{r}
+# read the data into R
+data4 <- read.table("table46.txt")
+
+# examine columns one upto five
+data4 <- (data4[,1:5])
+colnames(data4) <- c("independence", "support", "benevolence", "conformity", "leadership")
+
+# test the marginal normality for each variable
+uniNorm(data4, type = "SW", desc = TRUE)
+```
+
+Only two variables are normaly distributed, that is, benevolence and conformity.  
+
+## (b)
+Using all five variables, check for multivariate normality
+
+```{r}
+# calculate the sample mean vector
+cm4 <- colMeans(data4)
+
+# calculate the variance-covariance Matrix
+S4 <- cov(data4)
+
+# calaculate the statistical square distances
+d4 <- apply(data4, MARGIN = 1, function(data4) +
+                   t(data4-cm4) %*% solve(S4) %*% (data4-cm4))
+
+# construct the chi-square plots
+plot(qchisq((1:nrow(data4)-1/2)/nrow(data4),df=5), sort(d4),
+     xlab = expression(paste(chi[5]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "The Chi-Squared Plot for all Variables in Psychological Data"); abline(a=0, b=1)
+```
+
+The chi-square plot is not straight thereby showing non-normality for all five variables  
+
+## (c)
+For those variables that are not normal, determine the transformation that makes them nearly normal  
+
+```{r}
+# take the square root of the variables independence and leadership
+data4$independence <- sqrt(data4$independence)
+data4$leadership <- sqrt(data4$leadership)
+
+# take the natural log of variable support
+data4$support <- log(data4$support)
+
+# test for normality
+uniNorm(data4, type = "SW", desc = TRUE)
+```
+
+Now all the variables are normaly distributed except for support.
+
+# Problem 4.41
+
+Consider the data on snow removal.
+
+## (a)
+Comment on any outliers in a scatter plot of the original variables
+
+```{r}
+# read the data into R
+data5 <- read.table("table32.txt")
+colnames(data5) <- c("Duration", "Machine_Time")
+
+# scatter plot of the data
+library(ggplot2)
+ggplot(data5, aes(Machine_Time, Duration)) + geom_point(color = "blue", size = 4) + ggtitle ("Scatter Plot of Original Variables in the Snow Data")
+```
+
+There appears to be one outlier at position (42.3, 17.5) 
+
+## (b)
+Determine the power transformation that makes "Duration" approximately normal. Construct a QQ plot of the transformed observations
+
+```{r}
+# first check for normality before transformation
+shapiro.test(data5$Duration)
+
+# transform by taking the natural log of Duration i.e (lambda = 0)
+shapiro.test(log(data5$Duration))
+
+# construct a QQ plot of the transformed Duration observations 
+qqnorm(log(data5$Duration))
+qqline(log(data5$Duration))
+```
+
+
+## (c)
+Determine the power transformation that makes "Machine_Time" approximately normal. Construct a QQ plot of the transformed observations
+
+```{r}
+# first check for normality before transformation
+shapiro.test(data5$Machine_Time)
+
+# transform by taking the natural log of Machine_Time data i.e (lambda = 0)
+shapiro.test(log(data5$Machine_Time))
+
+# construct a QQ plot of the transformed Machine_Time data
+qqnorm(log(data5$Machine_Time))
+qqline(log(data5$Machine_Time))
+```
+
+## (d)
+Determine the power transformation for approximate bivariate normality using (4-40)
+
+```{r}
+
+# calculate the sample mean vector
+data5 <- log(data5)
+cm5 <- colMeans(data5)
+
+# calculate the variance-covariance Matrix
+S5 <- cov(data5)
+
+# calaculate the statistical square distances
+d5 <- apply(data5, MARGIN = 1, function(data5) +
+                   t(data5-cm5) %*% solve(S5) %*% (data5-cm5))
+
+# construct the chi-square plots
+plot(qchisq((1:nrow(data5)-1/2)/nrow(data5),df=2), sort(d5),
+     xlab = expression(paste(chi[2]^2, "Quantile")),
+     ylab = "Ordered Distances",
+     main = "The Chi-Squared Plot for Transformed Snow Data"); abline(a=0, b=1)
+```
