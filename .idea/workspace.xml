@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3739796-2f5c-4671-b581-0f1e68ab2e7d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Emaasit\Dropbox\MyWebsite\emaasit.github.io\blog\blog-index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research/research-index.html" afterPath="$PROJECT_DIR$/research/research-index.html" />
     </list>
     <ignored path="emaasit.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="research-index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="research-index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/research/research-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.41327125">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5308498">
-              <caret line="356" column="68" selection-start-line="356" selection-start-column="68" selection-end-line="356" selection-end-column="68" />
+            <state vertical-scroll-proportion="-22.545454">
+              <caret line="353" column="21" selection-start-line="327" selection-start-column="24" selection-end-line="353" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -53,8 +52,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/research/research-index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/research/research-index.html" />
       </list>
     </option>
   </component>
@@ -345,18 +344,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/research/research-index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        <state vertical-scroll-proportion="-22.545454">
+          <caret line="353" column="21" selection-start-line="327" selection-start-column="24" selection-end-line="353" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/research/research-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5308498">
-          <caret line="356" column="68" selection-start-line="356" selection-start-column="68" selection-end-line="356" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.41327125">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
           <folding />
         </state>
       </provider>
