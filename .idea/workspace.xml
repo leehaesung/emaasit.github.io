@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3739796-2f5c-4671-b581-0f1e68ab2e7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research/research-index.html" afterPath="$PROJECT_DIR$/research/research-index.html" />
     </list>
     <ignored path="emaasit.github.io.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="research-index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/research/research-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41327125">
-              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.33527356">
+              <caret line="221" column="42" selection-start-line="221" selection-start-column="42" selection-end-line="221" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -354,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/research/research-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41327125">
-          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.33527356">
+          <caret line="221" column="42" selection-start-line="221" selection-start-column="42" selection-end-line="221" selection-end-column="42" />
           <folding />
         </state>
       </provider>
