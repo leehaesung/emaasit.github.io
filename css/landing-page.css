@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+.navbar-fixed-top {
+    background-color: #285e8e;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -158,9 +162,12 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #2a6496;
+    text-align: center;
+
 }
 
 p.copyright {
     margin: 15px 0 0;
+    text-align: center;
 }
