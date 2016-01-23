@@ -25,6 +25,9 @@ h6 {
     background-color: #285e8e;
 }
 
+.nav a:hover {
+    color: orangered !important; }
+
 .lead {
     font-size: 18px;
     font-weight: 400;
